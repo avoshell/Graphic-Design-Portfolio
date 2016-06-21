@@ -1,0 +1,58 @@
+/*** COLORS:
+#e6f6f7 - medium blue
+#eff9fa - light blue
+#999 - light gray
+#666 - dark gray
+#e6a99d - hover pink
+***/
+
+/**** Main Styles ****/
+
+li {
+  list-style: none;
+}
+
+
+
+/************  MOBILE ************/
+
+@media screen and (max-width: 480px) {
+/**** Header ****/
+
+h1 {
+  margin: auto;
+  text-align: center;
+  color: #e6a99d;
+}
+
+/**** Navigation ****/
+
+.main-nav {
+  margin: auto;
+  padding-left: 0; /**** Chrome adds auto 40px to padding left, needed to specify there was no padding to center item, used developer tools to see dimensions of property ****/
+}
+
+.main-nav li {
+    display: block;
+    background: #989898;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+/**** Gallery ****/
+
+img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+  }
+}
+/************  TABLET ************/
+@media screen and (max-width: 720px) {}
+
+/************  DESKTOP ************/
+@media screen and (min-width: 721px) {}
