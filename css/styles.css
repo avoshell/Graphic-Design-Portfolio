@@ -1,8 +1,7 @@
 /*** COLORS:
-#e6f6f7 - medium blue
-#eff9fa - light blue
-#999 - light gray
-#666 - dark gray
+#6E6464 - dark gray/brown
+#202126 - dark blue
+#C4D5ED - light blue
 #e6a99d - hover pink
 ***/
 
@@ -43,13 +42,16 @@ h1 {
 
 /**** Gallery ****/
 
-img {
-    display: block;
-    width: 70%;
-    margin: auto;
-    padding: 40px;
-    border-radius: 10px;
-  }
+
+.graphic-portfolio {
+  display: block;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
 }
 /************  TABLET ************/
 @media screen and (max-width: 720px) {}
