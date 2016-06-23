@@ -1,8 +1,5 @@
 /*** COLORS:
-#6E6464 - dark gray/brown
-#202126 - dark blue
-#C4D5ED - light blue
-#e6a99d - hover pink
+
 ***/
 
 /**** Main Styles ****/
@@ -16,45 +13,84 @@ li {
 /************  MOBILE ************/
 
 @media screen and (max-width: 480px) {
-/**** Header ****/
 
-h1 {
+/**** DRY ****/
+h1,
+.main-nav,
+.main-nav li,
+.graphic-portfolio {
   margin: auto;
-  text-align: center;
-  color: #e6a99d;
 }
+
+h1,
+.main-nav li {
+  text-align: center;
+}
+
+.main-nav li,
+.graphic-portfolio {
+  display: block;
+  border-radius: 10px;
+}
+
+
+/**** Header ****/
+h1 {
+  color: #e6a99d;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
 
 /**** Navigation ****/
 
 .main-nav {
-  margin: auto;
   padding-left: 0; /**** Chrome adds auto 40px to padding left, needed to specify there was no padding to center item, used developer tools to see dimensions of property ****/
 }
 
 .main-nav li {
-    display: block;
     background: #989898;
-    margin: 15px;
+    margin-bottom: 15px;
     padding: 20px;
-    text-align: center;
-    border-radius: 10px;
+    width: 60%;
   }
+
 
 /**** Gallery ****/
 
-
 .graphic-portfolio {
-  display: block;
   width: 75%;
-  margin: auto;
-  border-radius: 10px;
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
+
+/**** Footer ****/
+.footer-menu {
+  display: none;
+}
+
+h3,
+.to-top {
+  display: inline-block;
+  width: 40%;
+  padding: 15px;
+}
+
+.to-top {
+    text-align: right;
+}
+
 }
 /************  TABLET ************/
-@media screen and (max-width: 720px) {}
+@media screen and (min-width: 481px AND max-width: 720px) {
+
+
+/**** Footer ****/
+.to-top {
+    display: none;
+  }
+}
 
 /************  DESKTOP ************/
 @media screen and (min-width: 721px) {}
