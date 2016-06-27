@@ -51,7 +51,7 @@ li {
 .main-nav li {
     background: #989898;
     margin-bottom: 15px;
-    padding: 20px;
+    padding: 30px;
     width: 60%;
   }
 
@@ -85,21 +85,46 @@ h3,
 /************  TABLET ************/
 @media screen and (min-width: 481px) {
 
-/**** Navigation ****/
-.main-nav li {
-  background: red;
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-  font-size: 1.5em;
-}
+/********** Navigation **********/
 
 /**** Nav Flex Box ***/
 .flex-container {
   display: flex;
   height: 200px;
   justify-content: center;
-  align-content: space-between;
+  align-content: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.main-nav li {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  font-size: 1.5em;
+}
+
+/********** Gallery **********/
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.portfolio li {
+  margin: auto;
+  width: 65%;
+  height: auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.graphic-portfolio {
+  width: 100%;
+  height: auto;
 }
 
 /**** Footer ****/
