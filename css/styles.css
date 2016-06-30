@@ -13,12 +13,17 @@ h1 {
 h1,
 .main-nav,
 .main-nav li,
-.graphic-portfolio {
+.graphic-portfolio,
+.bio-section,
+.bio-section h2,
+.bio-section p {
   margin: auto;
 }
 
 h1,
-.main-nav li {
+.main-nav li,
+.bio-section h2,
+.bio-section p {
   text-align: center;
 }
 
@@ -78,6 +83,27 @@ li {
 .mobile-footer h3 {
   flex-grow: 2;
 }
+
+/**** ABOUT ME ****/
+
+.bio-section {
+  width: 94%;
+  margin-bottom: 150px;
+}
+.bio-section h2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+.bio-section p {
+  padding: 25px;
+  font-size: 1.25em;
+}
+
+
+
+/**** CONTACT ****/
 
 }
 /************  TABLET ************/
@@ -151,9 +177,13 @@ li {
 
 .footer-menu li {
   width: 25%;
+  padding: 5px;
   text-align: right;
 }
 
+/**** ABOUT ME ****/
+
+/**** CONTACT ****/
 
 }
 
@@ -180,5 +210,9 @@ li {
 .flex-footer {
   margin-top: 150px;
 }
+
+/**** ABOUT ME ****/
+
+/**** CONTACT ****/
 
 }
