@@ -4,8 +4,12 @@
 
 /**** Main Styles ****/
 
+h1,
+h3 {
+  color: #CBD6BF;
+}
+
 h1 {
-  color: #e6a99d;
   padding: 80px 0 30px 0;
 }
 
@@ -35,6 +39,7 @@ li {
   border-radius: 10px;
 }
 
+
 /************  MOBILE ************/
 
 @media screen and (max-width: 480px) {
@@ -45,6 +50,11 @@ li {
   border-radius: 10px;
 }
 
+h1 {
+  font-size: 2.5em;
+  padding-bottom: 50px;
+}
+
 
 /**** Navigation ****/
 
@@ -53,11 +63,21 @@ li {
 }
 
 .main-nav li {
-    background: #989898;
+    background: #DAD1BE;
     margin-bottom: 15px;
     padding: 30px;
     width: 60%;
+    font-size: 1.2em;
   }
+
+a:visited {
+    color: #fff;
+  }
+
+a:hover{
+  color: #C9A66B;
+}
+
 
 
 /**** Gallery ****/
@@ -77,6 +97,12 @@ li {
 .mobile-footer {
   display: flex;
   padding: 15px;
+  color: #DAD1BE;
+}
+
+.to-top a:visited,
+.to-top a:link {
+  color: #DAD1BE;
 }
 
 .mobile-footer h3 {
@@ -127,6 +153,10 @@ li {
 /************  TABLET ************/
 @media screen and (min-width: 481px) {
 
+h1 {
+  font-size: 2.7em;
+}
+
 /********** Navigation **********/
 
 /**** Nav Flex Box ***/
@@ -143,7 +173,17 @@ li {
   display: inline-block;
   height: 100px;
   width: 100px;
-  font-size: 1.5em;
+  font-size: 2em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a:enabled {
+  color: #DAD1BE;
+}
+
+a:hover {
+  color: #C9A66B;
 }
 
 
