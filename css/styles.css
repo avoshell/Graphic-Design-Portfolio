@@ -102,6 +102,27 @@ li {
 
 /**** CONTACT ****/
 
+.contact-me {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  line-height: 1.4em;
+}
+
+.social-media {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.social-media li img {
+  width: 50px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
 }
 /************  TABLET ************/
 @media screen and (min-width: 481px) {
@@ -187,11 +208,36 @@ li {
   margin-bottom: 50px;
 }
 
+.bio-section p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
 .bio-section h2 {
   margin-bottom: 25px;
 }
 
 /**** CONTACT ****/
+
+.contact-me,
+.social-media {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.contact-me p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.social-media li img {
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
 
 }
 
