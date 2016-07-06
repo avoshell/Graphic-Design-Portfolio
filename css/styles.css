@@ -70,7 +70,8 @@ h1 {
     font-size: 1.2em;
   }
 
-a:visited {
+a:visited,
+a:enabled {
     color: #fff;
   }
 
